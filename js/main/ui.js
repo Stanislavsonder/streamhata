@@ -151,7 +151,7 @@ function addPeriod (type, gameStep, period, redrawMode=false) {
 	}
 	periodWidth = 5;
 	let color = (type == 'complete'?"#80E56D":type == 'drop'?"#FF3A68":"#006DD5");
- 	periodBarSvg.insertAdjacentHTML("beforeend",'<rect onclick="iventStepsShowInfo('+gameStep+');" x="'+periodXCord+'%" y="50" rx="0" ry="0" class="periodRect" width="'+periodWidth+'%" height="100" stroke="black" clip-path="url(#mask)" fill="'+color+'" stroke-width="0.3"/> <text id="text" x="'+((periodXCord+periodWidth/2)-0.4)+'%" fill="#fff" y="112">'+(period>1?period:1)+'</text>');
+ 	periodBarSvg.insertAdjacentHTML("beforeend",'<rect onclick="iventStepsShowInfo('+gameStep+');" x="'+periodXCord+'%" y="50" rx="0" ry="0" class="periodRect" width="'+periodWidth+'%" height="100" stroke="black" fill="'+color+'" stroke-width="0.3"/> <text id="text" x="'+((periodXCord+periodWidth/2)-0.4)+'%" fill="#fff" y="112">'+(period>1?period:1)+'</text>');
 
  
  	periodXCord+=periodWidth;
@@ -180,7 +180,7 @@ function iventStepsShowInfo(p) {
 	modalGameInfoInsert.insertAdjacentHTML("beforeend",
 		`<h3 class="gameInfoStartFinish">Start<br>${iventSteps[p].startDate.getHours()}:${iventSteps[p].startDate.getMinutes()}:${iventSteps[p].startDate.getSeconds()} ${iventSteps[p].startDate.getDate()}.${iventSteps[p].startDate.getMonth()+1}.${iventSteps[p].startDate.getFullYear()}</h3>
 		 <h3 class="gameInfoStartFinish">Finish<br>${iventSteps[p].finishDate.getHours()}:${iventSteps[p].finishDate.getMinutes()}:${iventSteps[p].finishDate.getSeconds()} ${iventSteps[p].finishDate.getDate()}.${iventSteps[p].finishDate.getMonth()+1}.${iventSteps[p].finishDate.getFullYear()}</h3>
-		 <h3 class="gameInfoTotalTimeTitle">Total Time:</h3>
+		 <h3 class="gameInfoTotalTimeTitle">Total Time</h3>
 		 <p class="gameInfoTotalTime">${iventSteps[p].totalTime.toStr()}</p>
 		`);
 	let desc = iventSteps[p].game.description;
@@ -238,8 +238,13 @@ function UIGameInfoOnBackground(game){
 	 	metaScore.innerHTML = game.metacore!=null?game.metacore+'/100':'Unrated'; 
 	    userScore.innerHTML =  game.userscore!=null?game.userscore+'/10':'Unrated'; 
 	    UISmoothOpen(null, headerScore);
-	    HLTBLink.setAttribute("href", "https://howlongtobeat.com/?q="+currentRolledGame.name+"#search");
+	    hltbLink.setAttribute("href", "https://howlongtobeat.com/?q="+currentRolledGame.name+"#search");
 	    steamLink.setAttribute("href", "https://store.steampowered.com/search/?sort_by=_ASC&term="+currentRolledGame.name);
+	    gogLink.setAttribute("href", "https://www.gog.com/games?page=1&sort=popularity&search="+currentRolledGame.name);
+	    egsLink.setAttribute("href", "https://www.epicgames.com/store/ru/browse?pageSize=30&q="+currentRolledGame.name+"&sortBy=relevance&sortDir=DESC");
+	    rutrackerLink.setAttribute("href", "https://rutracker.org/forum/tracker.php?nm="+currentRolledGame.name);
+		rutorLink.setAttribute("href", "  http://rutor.info/search/"+currentRolledGame.name);
+
 	    UISmoothOpen(null, headerButtons);
 	}
 	else UIGameInfoOnBackgroundClose();
