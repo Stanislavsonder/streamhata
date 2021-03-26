@@ -14,17 +14,14 @@
   </div>
   <!-- Меню настроек слева -->
   <menu id="menu">
+    <button onclick='clearStorage()' id="clearStorageButton" class="controlButton"></button>
+    <button onclick='settingsOpen()' id="settingsOpenButton" class="controlButton"></button>
+    <button onclick='soundOff()' id="soundButton" class="controlButton"></button>
+    <button onclick='UINightModeSwitch()' id="nightModeButton" class="controlButton"></button>
     <div class="switchPlayerWrapper">
       <input type="button" name="switchPlayer" value="  " id="switchPlayer" class="controlButton"  onclick="switchPlayer()">
       <div id="switchPlayerMenu" class="modal" style="display: none;"></div>
     </div> 
-    <div class="settingsWrapper">
-      <button onclick='settingsOpen()' id="settingsOpenButton" class="controlButton"></button>
-      <div id ="settingsWindow"></div>
-    </div>
-    <button onclick='clearStorage()' id="clearStorageButton" class="controlButton"></button>
-    <button onclick='soundOff()' id="soundButton" class="controlButton"></button>
-    <button onclick='UINightModeSwitch()' id="nightModeButton" class="controlButton"></button>
   </menu>
   <aside>
    <h3>May be rolled:</h3>
@@ -36,12 +33,12 @@
   	<h1 id="gameNameLabel"> </h1>
   	<h2 id="gameYearLabel"> </h2>
     <content id="headerButtons" class="smoothClosing">
-        <a href="https://howlongtobeat.com/#search" id="HLTBLink" target="_blank">
-          <button id="hltbButton">HLTB</button>
-        </a>
-        <a href="https://store.steampowered.com/search/?sort_by=_ASC&term=" id="steamLink"  target="_blank">
-          <button id="steamSearchButton">Steam</button>
-        </a>
+        <a href="https://howlongtobeat.com/#search" id="hltbLink" target="_blank"><button id="hltbButton">HLTB</button></a>
+         <a href="https://www.epicgames.com/" id="egsLink"  target="_blank"><button id="egsSearchButton">EGS</button></a>
+        <a href="https://store.steampowered.com/search/?sort_by=_ASC&term=" id="steamLink"  target="_blank"><button id="steamSearchButton">Steam</button></a>
+        <a href="https://www.gog.com" id="gogLink"  target="_blank"><button id="gogSearchButton">GOG</button></a>
+        <a href="https://rutracker.org/" id="rutrackerLink"  target="_blank"><button id="rutrackerSearchButton">Rutracker</button></a>
+        <a href="https://rutor.org/" id="rutorLink"  target="_blank"><button id="rutorSearchButton">Rutor</button></a>
     </content>
   </header>
 
@@ -110,10 +107,10 @@
   <!-- Прогресс бар -->
   <div id="periodBar">
   	<svg width="100%" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg" id="periodBarSvg">
-  		<rect x="1%" y="50" rx="25" ry="25" width="98%" height="100" stroke="black" fill="rgba(255,255,255,0.1)" stroke-width="1"/>
+  		<rect x="0%" y="50" rx="0" ry="0" width="100%" height="100" stroke="black" fill="rgba(255,255,255,0.1)" stroke-width="1"/>
       <defs>
       	<clipPath id="mask">
-         		<rect x="1%" y="50" rx="25" ry="25" width="98%" height="100" stroke="black" fill="transparent" stroke-width="1"/>
+         		<rect x="0%" y="50px" rx="25" ry="25" width="98%" height="100" stroke="black" fill="transparent" stroke-width="1"/>
       	</clipPath>
     	</defs>
   	</svg>

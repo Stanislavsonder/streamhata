@@ -149,7 +149,7 @@ function addPeriod (type, gameStep, period, redrawMode=false) {
 		}
 		iventSteps.push(new stepData(currentRolledGame, type,currentPeriod,gameStep,plArray,gameStartDate, new Date()));
 	}
-	periodWidth = (type=='complete')?5:2;
+	periodWidth = 5;
 	let color = (type == 'complete'?"#80E56D":type == 'drop'?"#FF3A68":"#006DD5");
  	periodBarSvg.insertAdjacentHTML("beforeend",'<rect onclick="iventStepsShowInfo('+gameStep+');" x="'+periodXCord+'%" y="50" rx="0" ry="0" class="periodRect" width="'+periodWidth+'%" height="100" stroke="black" clip-path="url(#mask)" fill="'+color+'" stroke-width="0.3"/> <text id="text" x="'+((periodXCord+periodWidth/2)-0.4)+'%" fill="#fff" y="112">'+(period>1?period:1)+'</text>');
 

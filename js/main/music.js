@@ -26,7 +26,7 @@ function playMusic() {
 		music.play();
 		let t = setInterval(()=> {
 			masterVolume+=0.05; 
-			music.volume=masterVolume*volumeMultiplayer;
+			music.volume=Math.min(masterVolume*volumeMultiplayer,1);
 		},100)
 		setTimeout(()=>{
 			clearTimeout(t);
@@ -36,7 +36,7 @@ function playMusic() {
 			clearTimeout(t);
 			t = setInterval(()=> {
 				masterVolume-=0.05; 
-				music.volume=masterVolume*volumeMultiplayer; 
+				music.volume=Math.max(0,masterVolume*volumeMultiplayer); 
 			},100);
 
 		},rollConfig.rollDuration-2000);

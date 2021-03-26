@@ -12,7 +12,7 @@ let currentRolledGame;
 let gameStartDate; // Время начала
 let gameFinishDate; // Время конца
 let iventSteps = []; // Статистика периодов 
-let periodXCord = 1; // Координата Х отрезка для интерфейса
+let periodXCord = 0; // Координата Х отрезка для интерфейса
 let rollOrReroll = 0;
 let currentTimer = '';
 let timerOn = false;
@@ -43,19 +43,24 @@ let modalGameFooter 	= document.getElementById('modalFooter');
 let headerScore			= document.getElementById('headerScore');
 let metaScore 			= document.getElementById('metaScore');
 let userScore 			= document.getElementById('userScore');
-let hltbButton 			= document.getElementById('hltbButton');
-let steamButton 		= document.getElementById('steamSearchButton');
 let startButton 		= document.getElementById('startGame');
 let soundButton			= document.getElementById('soundButton');
-let steamLink			= document.getElementById('steamLink');
-let HLTBLink			= document.getElementById('HLTBLink');
 let headerButtons		= document.getElementById('headerButtons');
 let modalGameInfoInsert2= document.getElementById('modalGameDesc');
 let modalGameInfoInsert3= document.getElementById('modalGameHeader');
 let aside				= document.getElementById('asideMenu');
-
-
-
+let hltbButton 			= document.getElementById('hltbButton');
+let hltbLink			= document.getElementById('hltbLink');
+let steamButton 		= document.getElementById('steamSearchButton');
+let steamLink			= document.getElementById('steamLink');
+let gogButton			= document.getElementById('gogSearchButton');
+let gogLink				= document.getElementById('gogLink');
+let egsButton			= document.getElementById('egsSearchButton');
+let egsLink				= document.getElementById('egsLink');
+let rutrackerButton		= document.getElementById('rutrackerSearchButton');
+let rutrackerLink		= document.getElementById('rutrackerLink');
+let rutorButton			= document.getElementById('rutorSearchButton');
+let rutorLink			= document.getElementById('rutorLink');
 
 
 // Объект информации о периоде

@@ -176,12 +176,14 @@ content {
 
 
 #periodBarSvg {
+  width: 100vw;
   height: 155px;
+  overflow-x: all;
 }
 
 .modalExit {
   text-align: center;
-  background-color: #FF7F7FFF;
+  background-color: #FF7F7F;
   background-image: url(../img/close.png);
   background-position:center;
   background-size: 75%;
@@ -199,7 +201,7 @@ content {
 }
 .modalExit:hover {
   transition: all 0.15s ease-out;
-  background-color: #FF5B5BFF;
+  background-color: #FF5B5B;
 }
 .modalExit:active {
   -webkit-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 1) inset;
@@ -415,7 +417,7 @@ content {
 #headerButtons a {
   margin: 5px;
 }
-#hltbButton, #steamSearchButton {
+#headerButtons button {
   margin: 5px;
   height: 75%;
   width: 100%;

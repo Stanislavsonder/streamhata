@@ -107,5 +107,5 @@ function redrawProgressBar() {
 
 function clearStorage() {
 	storage.clear();
-	console.log("Local data removed.");
+	location.reload();
 }
