@@ -1,0 +1,645 @@
+[{game: {name: "Flanker 2.0",…}, gameStatus: "reroll", gamePeriod: 1, step: 0,…},…]
+0: {game: {name: "Flanker 2.0",…}, gameStatus: "reroll", gamePeriod: 1, step: 0,…}
+game: {name: "Flanker 2.0",…}
+description: "The usefulness of any combat system is a weapon. Flanker has a wide variety of air to air and air to ground missile and bomb systems which have realistic behavior and power. Using Russian satellite imagery Flanker provides photo-realistic terrain. The perfect flight dynamics, new 3D sound system, and accurate damage modeling offers players a true combat experience. [Eagle Dynamics]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/98w-game.jpg"
+metacore: 81
+name: "Flanker 2.0"
+release: "September 30, 1999"
+releaseYear: 1999
+top: 1001
+userscore: null
+gamePeriod: 1
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+0: {name: "Стас", img: "img/avatars/stas.png",…}
+1: {name: "Коля", img: "img/avatars/sumar.jpg",…}
+2: {name: "Даник", img: "img/avatars/Danik.jpg",…}
+step: 0
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+hours: 0
+miliseconds: 1
+minutes: 0
+seconds: 0
+1: {game: {name: "Ghostbusters II",…}, gameStatus: "reroll", gamePeriod: 1, step: 1,…}
+game: {name: "Ghostbusters II",…}
+description: "The slime is rising fast... Who ya gonna call? Get your bustin' business back in high gear! Hit the streets in your ectomobile. Clear the courtroom of goblins. Hitch a ride with the Statue of Liberty. And defeat Vigo at the Museum of Art before he rings in a nasty new year!"
+duration: 2
+imagesrc: "https://howlongtobeat.com/games/220px-Ghostbusters2nes.jpg"
+metacore: null
+name: "Ghostbusters II"
+release: "1989"
+releaseYear: 1989
+top: null
+userscore: 8
+gamePeriod: 1
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+0: {name: "Стас", img: "img/avatars/stas.png",…}
+1: {name: "Коля", img: "img/avatars/sumar.jpg",…}
+2: {name: "Даник", img: "img/avatars/Danik.jpg",…}
+step: 1
+totalTime: {miliseconds: 94, seconds: 42, minutes: 3, hours: 0}
+hours: 0
+miliseconds: 94
+minutes: 3
+seconds: 42
+2: {game: {name: "Half-Life",…}, gameStatus: "complete", gamePeriod: 1, step: 2,…}
+game: {name: "Half-Life",…}
+description: "Half-Life combines great storytelling in the tradition of Stephen King with intense action and advanced technology to create a frighteningly realistic world where players need to think smart to survive. Half-Life has won more than 50 Game of the Year awards from publications around the world, and was named 'Best PC Game Ever' in PC Gamer's November 1999 issue. [Sierra]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/5/5764f80ddd3e67da3b29eb759e8a4737-98.jpg"
+metacore: 96
+name: "Half-Life"
+release: "November 19, 1998"
+releaseYear: 1998
+top: 4
+userscore: 8.7
+gamePeriod: 1
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+0: {name: "Стас", img: "img/avatars/stas.png",…}
+1: {name: "Коля", img: "img/avatars/sumar.jpg",…}
+2: {name: "Даник", img: "img/avatars/Danik.jpg",…}
+step: 2
+totalTime: {miliseconds: 56, seconds: 45, minutes: 24, hours: 5}
+hours: 5
+miliseconds: 56
+minutes: 24
+seconds: 45
+3: {game: {name: "F1 2001",…}, gameStatus: "complete", gamePeriod: 2, step: 3,…}
+game: {name: "F1 2001",…}
+description: "Engage in high stakes racing from Monaco to Monza and take on the most intelligent and daring racers to hit the Formula One circuit. Includes all the drivers, tracks and teams from the official FIA 2001 Formula OneWorld Championship. [EA Sports]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/9/e26b61df4b81844d181cbba32ad81a50-98.jpg"
+metacore: 79
+name: "F1 2001"
+release: "October 14, 2001"
+releaseYear: 2001
+top: 1267
+userscore: 7.1
+gamePeriod: 2
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+0: {name: "Стас", img: "img/avatars/stas.png",…}
+1: {name: "Коля", img: "img/avatars/sumar.jpg",…}
+2: {name: "Даник", img: "img/avatars/Danik.jpg",…}
+step: 3
+totalTime: {miliseconds: 96, seconds: 20, minutes: 48, hours: 1}
+hours: 1
+miliseconds: 96
+minutes: 48
+seconds: 20
+4: {game: {name: "Dragonshard",…}, gameStatus: "drop", gamePeriod: 3, step: 4,…}
+game: {name: "Dragonshard",…}
+description: "Dragonshard is the first game to be set in the exciting new D&D campaign setting, Eberron, a cinematic and war-torn world of action, adventure and intrigue where fantasy meets magical technology. Eberron, which has been recently released by Wizards of the Coast, details a land composed of a dark underworld ruled by monsters and demons, and a surface world home to the civilizations of humans, dwarves, halflings, gnomes and more. Surrounding the world is the Ring of Siberys, a multi-colored belt of crystal shards and a source of tremendous magical power. These "dragonshards" occasionally fall to earth and are the cornerstone of all magic on Eberron. The "Dragonshard" takes place at time when the world of Eberron is in chaos. Three forces are vying for control of a massive dragonshard, known as the Heart of Siberys. The ancient artifact has come to rest in a mystical part of Eberron known as Xen'drik, once home to ancient and powerful civilizations; it is now a place of mystery and monsters. Shielded by a circle of high mountains and blanketed by never-ending tempests and blizzards, this region has been shunned for millennia. [Atari]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/7/d09163f5b1b2ea4da69bcc7c977d64e6-98.jpg"
+metacore: 80
+name: "Dragonshard"
+release: "October 2, 2005"
+releaseYear: 2005
+top: 1163
+userscore: 7.4
+gamePeriod: 3
+gameStatus: "drop"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+0: {name: "Стас", img: "img/avatars/stas.png",…}
+1: {name: "Коля", img: "img/avatars/sumar.jpg",…}
+2: {name: "Даник", img: "img/avatars/Danik.jpg",…}
+step: 4
+totalTime: {miliseconds: 1, seconds: 2, minutes: 43, hours: 0}
+hours: 0
+miliseconds: 1
+minutes: 43
+seconds: 2
+5: {game: {name: "Arx Fatalis",…}, gameStatus: "reroll", gamePeriod: 2, step: 5,…}
+game: {name: "Arx Fatalis",…}
+description: "The goal of the game is to destroy the secret cult of Akbaa, the god of devastation and chaos, thereby preventing his return to the physical world. Should the player fail, the demon is bound to impose his reign of terror upon Arx. The player assumes the role of the potential hero, fights inside an underground fortress using wooden clubs, swords and magical items to defend himself against creatures including goblins, trolls, rat-men and other vicious opponents. However, brute force is not always the best way to succeed: The player has at his disposal the innovative new "onscreen gesture based magic system" to assist him in his progress through the game. Using the mouse, burning runes can be drawn in mid-air. A series of these gestures combine to create powerful magic spells that will protect the player or empower him to defeat his enemies and pursue his quest. [JoWood]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/7/92bdb6fcb536807353266e9ee39cd0cc-98.jpg"
+metacore: 77
+name: "Arx Fatalis"
+release: "November 11, 2002"
+releaseYear: 2002
+top: 1608
+userscore: 8.2
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+0: {name: "Стас", img: "img/avatars/stas.png",…}
+1: {name: "Коля", img: "img/avatars/sumar.jpg",…}
+2: {name: "Даник", img: "img/avatars/Danik.jpg",…}
+step: 5
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+hours: 0
+miliseconds: 1
+minutes: 0
+seconds: 0
+6: {game: {name: "Magic: The Gathering Online",…}, gameStatus: "reroll", gamePeriod: 2, step: 6,…}
+game: {name: "Magic: The Gathering Online",…}
+description: "In the Magic Online game, you will be able to purchase digital cards and trade them with other players, build and customize your decks and organize your card collection right on the PC. A wide range of game rooms will allow players of different levels to find just the right environment for them, from casual pick-up games to highly competitive tournaments. Players new to the Magic game will be able to observe games in the Casual Play room. Built-in tutorials and practice rooms will help get game-play under way quickly."
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/2/c2500cc93a7bac546b78491c14434ea8-98.jpg"
+metacore: 75
+name: "Magic: The Gathering Online"
+release: "June 14, 2002"
+releaseYear: 2002
+top: 2115
+userscore: 5.1
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+0: {name: "Стас", img: "img/avatars/stas.png",…}
+1: {name: "Коля", img: "img/avatars/sumar.jpg",…}
+2: {name: "Даник", img: "img/avatars/Danik.jpg",…}
+step: 6
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+hours: 0
+miliseconds: 1
+minutes: 0
+seconds: 0
+7: {game: {name: "Bang! Gunship Elite",…}, gameStatus: "reroll", gamePeriod: 2, step: 7,…}
+game: {name: "Bang! Gunship Elite",…}
+description: "Incredible rendering techniques, real-time 3-D universes, aliens, asteroids, mammoth vessels, aggressive fighters, and powerful weapons will make this the action game your universe is clamoring for!  [Red Storm Entertainment]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/9/b5b9ec47a093c42f5e9a57331a678835-98.jpg"
+metacore: 68
+name: "Bang! Gunship Elite"
+release: "July 19, 2000"
+releaseYear: 2000
+top: 3199
+userscore: 7
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+0: {name: "Стас", img: "img/avatars/stas.png",…}
+1: {name: "Коля", img: "img/avatars/sumar.jpg",…}
+2: {name: "Даник", img: "img/avatars/Danik.jpg",…}
+step: 7
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+8: {game: {name: "America",…}, gameStatus: "reroll", gamePeriod: 2, step: 8,…}
+game: {name: "America",…}
+description: "An RTS of power, lust, ambition, and greed, America is set in the wildest days of the Wild West. You control the destiny of a group of people (settlers, Native Americans, Mexicans, and outlaws) and lead them, by your guile, to power and prosperity. [Data Becker]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/4/0abd3f7249652af24186928444fac46a-98.jpg"
+metacore: 50
+name: "America"
+release: "January 14, 2001"
+releaseYear: 2001
+top: 4434
+userscore: 7.5
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 8
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+9: {game: {name: "Star Trek: Armada II",…}, gameStatus: "reroll", gamePeriod: 2, step: 9,…}
+game: {name: "Star Trek: Armada II",…}
+description: "Takes the concept of its predecessor to it's logical conclusion by allowing the player to experience the game in a full 3D mode, so the battles and elements of space conquest and exploration take on the vividness of the best of Star Trek. With over 45 new ship classes, 22 new special weapons, over 30 new stations, building a devastating armada has been taken to a new level. [Activision]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/7/ad6b81877b7b4c0129fae22cc4fa7ded-98.jpg"
+metacore: 65
+name: "Star Trek: Armada II"
+release: "November 12, 2001"
+releaseYear: 2001
+top: 3518
+userscore: 7.6
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 9
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+10: {game: {name: "Heroes of Might and Magic IV: The Gathering Storm",…}, gameStatus: "reroll",…}
+game: {name: "Heroes of Might and Magic IV: The Gathering Storm",…}
+description: "The Gathering Storm includes six entirely new campaigns which tell the tale of five heroes and their quest to defeat a mad wizard named Hexis, whose control of the realms of Nature and Death have begun a chain of events that threaten not just the heroes' own kingdom of Devonshire, but all of the lands of Lodwar. As Hexis's strength grows, so does his negative effect on nature itself. Earthquakes, floods, storms, and more have begun to spread across the kingdom, and it is up to the five heroes to stop Hexis and somehow reverse the damage he has done. [3DO]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/4/fe94b79cca55c6094516a0df900a221d-98.jpg"
+metacore: 64
+name: "Heroes of Might and Magic IV: The Gathering Storm"
+release: "September 26, 2002"
+releaseYear: 2002
+top: 3608
+userscore: 7.7
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 10
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+11: {game: {name: "Takeda",…}, gameStatus: "reroll", gamePeriod: 2, step: 11,…}
+game: {name: "Takeda",…}
+description: "Historically real Japanese feudal war strategy. Test your strategic skills of warfare in the feudal days of Japan. Be a general in the most glorious days of the Japanese empire when Shoguns and warlords ruled the land. Position your armies where you can overwhelm your competitor. Play against a real artificial intelligence based upon the greatest warlords of all time, or combat your best friends in a game of skill and chance. [Xicat Interactive]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/1/fa8648b138ad10338c5368f8008b929b-98.jpg"
+metacore: 58
+name: "Takeda"
+release: "November 14, 2001"
+releaseYear: 2001
+top: 4105
+userscore: 7.1
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 11
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+12: {game: {name: "Black & White",…}, gameStatus: "reroll", gamePeriod: 2, step: 12,…}
+game: {name: "Black & White",…}
+description: "Peter Molyneux's highly anticipated "god game," a blend of the genres including strategy, sim, RPG, and puzzle, features the player as a new god in the lands of Eden who must reign with the help of uniquely evolving animals in either a benign or evil fashion."
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/1/da4c1ac972d39e99d7d718a16835a555-98.jpg"
+metacore: 90
+name: "Black & White"
+release: "March 26, 2001"
+releaseYear: 2001
+top: 95
+userscore: 7.7
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 12
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+13: {game: {name: "Poseidon",…}, gameStatus: "reroll", gamePeriod: 2, step: 13,…}
+game: {name: "Poseidon",…}
+description: "With 45 missions spread out across six campaigns, Poseidon features new units to command during war, new monsters, new raw materials to trade (black marble & orichalc), and hippodromes providing much needed city-wide happiness and cash."
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/6/11c1a9fad63ef692889812bd65c0ca96-98.jpg"
+metacore: 84
+name: "Poseidon"
+release: "June 25, 2001"
+releaseYear: 2001
+top: 605
+userscore: 7.6
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 13
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+14: {game: {name: "Age of Sail II: Privateer's Bounty",…}, gameStatus: "reroll", gamePeriod: 2, step: 14,…}
+game: {name: "Age of Sail II: Privateer's Bounty",…}
+description: "Now you too can lead the wooden fleets of the world's most powerful nautical powers into battle in the new standard of naval combat simulation, Age of Sail II: Privateer's Bounty. Never before has every aspect of nautical combat been so faithfully reproduced, from advanced sailing tactics, to the handling of your crews. It's time for you to accept your Letter of Marques, and immerse yourself into an epoch of adventure and intrigue, into the Age of Sail. [Global Star Software]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/9/fc7a905aa48c46692ff276b85872b251-98.jpg"
+metacore: 69
+name: "Age of Sail II: Privateer's Bounty"
+release: "August 13, 2002"
+releaseYear: 2002
+top: 2988
+userscore: null
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 14
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+15: {game: {name: "Impossible Creatures",…}, gameStatus: "reroll", gamePeriod: 2, step: 15,…}
+game: {name: "Impossible Creatures",…}
+description: "A 3D real-time strategy game set in the 1930's that pits the player against an evil madman in a desperate campaign across a chain of remote and diverse islands. Using Earth's most formidable animals as building blocks, the player creates an army of unique, mutant monsters in a struggle to protect an unsuspecting world. [Microsoft]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/8/351a05c1d4aff85b11b4feade8294276-98.jpg"
+metacore: 72
+name: "Impossible Creatures"
+release: "December 29, 2002"
+releaseYear: 2002
+top: 2501
+userscore: 7.9
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 15
+totalTime: {miliseconds: 92, seconds: 12, minutes: 3, hours: 1}
+16: {game: {name: "Battle Realms",…}, gameStatus: "reroll", gamePeriod: 2, step: 16,…}
+game: {name: "Battle Realms",…}
+description: "A fantasy RTS combining a unique Living Resource System with a detailed combat model. After seven years of exile, Kenji returns to his war-torn homeland. Will he rise above his bitterness and liberate the land under the Dragon Clan flag, or will he give in to his darker side and conquer it as his father's Serpent Clan did so many years ago? Regardless of Kenji's choice, his actions will force him into conflict with the sinister Lotus Clan, the noble Wolf Clan and a mysterious foe from the past. [Ubi Soft]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/0/b30f6e04c16cdbdd2c59f37a4da46b64-98.jpg"
+metacore: 82
+name: "Battle Realms"
+release: "November 7, 2001"
+releaseYear: 2001
+top: 824
+userscore: 8.5
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 16
+totalTime: {miliseconds: 94, seconds: 0, minutes: 0, hours: 0}
+17: {game: {name: "Earth 2150: The Moon Project",…}, gameStatus: "reroll", gamePeriod: 2, step: 17,…}
+game: {name: "Earth 2150: The Moon Project",…}
+description: "It is 2150, one of the darkest years in the history of mankind. While the Lunar Corporation, Eurasian Dynasty, and the United Civilized States battle it out to the bitter end on the home planet, a secret research project is underway on the moon. Only the project code name is known -- "Project SunLight."  [Game Sudios]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/4/32690394c989b3a5e2f6e97d28dedc25-98.jpg"
+metacore: 75
+name: "Earth 2150: The Moon Project"
+release: "March 11, 2001"
+releaseYear: 2001
+top: 2040
+userscore: 7.3
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 17
+totalTime: {miliseconds: 46, seconds: 0, minutes: 0, hours: 0}
+18: {game: {name: "The Sting!",…}, gameStatus: "reroll", gamePeriod: 2, step: 18,…}
+game: {name: "The Sting!",…}
+description: "In this underworld, you will need to make your way up (or down) the criminal ladder to become the most respected burglar on the streets. To gain the honor you crave from the most notorious criminals in the underworld, you will need to pull off the crime of the century -- The Sting!  [JoWood Productions]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/4/3414bd5f94d8e16a36fecb86f5d8bbdd-98.jpg"
+metacore: 73
+name: "The Sting!"
+release: "July 1, 2001"
+releaseYear: 2001
+top: 2470
+userscore: 7.7
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 18
+totalTime: {miliseconds: 55, seconds: 0, minutes: 0, hours: 0}
+19: {game: {name: "Arx Fatalis",…}, gameStatus: "reroll", gamePeriod: 2, step: 19,…}
+game: {name: "Arx Fatalis",…}
+description: "The goal of the game is to destroy the secret cult of Akbaa, the god of devastation and chaos, thereby preventing his return to the physical world. Should the player fail, the demon is bound to impose his reign of terror upon Arx. The player assumes the role of the potential hero, fights inside an underground fortress using wooden clubs, swords and magical items to defend himself against creatures including goblins, trolls, rat-men and other vicious opponents. However, brute force is not always the best way to succeed: The player has at his disposal the innovative new "onscreen gesture based magic system" to assist him in his progress through the game. Using the mouse, burning runes can be drawn in mid-air. A series of these gestures combine to create powerful magic spells that will protect the player or empower him to defeat his enemies and pursue his quest. [JoWood]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/7/92bdb6fcb536807353266e9ee39cd0cc-98.jpg"
+metacore: 77
+name: "Arx Fatalis"
+release: "November 11, 2002"
+releaseYear: 2002
+top: 1608
+userscore: 8.2
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 19
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+20: {game: {name: "Madden NFL 2001",…}, gameStatus: "reroll", gamePeriod: 2, step: 20,…}
+game: {name: "Madden NFL 2001",…}
+description: "Get ready for a dose of bone-crunching football action on the PlayStation 2 with Madden NFL 2001. Madden NFL 2001 features an all-new and exclusive NFL Coaches Club license, which means you'll see coaches on the sidelines and hear them yelling encouragement, comments and criticisms. Madden 2001 also features individualized details, easy-to-use interface, dynamically enhanced audio and play-by-play recorded with John Madden and his broadcast partner, Pat Summerall, and more!"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/7/76a87445b27098443c82ae772e4dad3a-98.jpg"
+metacore: 78
+name: "Madden NFL 2001"
+release: "August 24, 2000"
+releaseYear: 2000
+top: 1551
+userscore: 5.8
+gamePeriod: 2
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 20
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+21: {game: {name: "Star Trek: Voyager Elite Force",…}, gameStatus: "complete", gamePeriod: 2, step: 21,…}
+game: {name: "Star Trek: Voyager Elite Force",…}
+description: "As Lt. Tuvok, you'll leap into action to defend the Voyager from assault, battle through derelict spacecraft, infiltrate a Borg cube, and take on the ultimate colonization force -- all while facing annihilation at every turn. No one said being a hero was easy.  [Activision]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/3/9e559036112cbef613950fb591886b6e-98.jpg"
+metacore: 86
+name: "Star Trek: Voyager Elite Force"
+release: "September 20, 2000"
+releaseYear: 2000
+top: 360
+userscore: 7.8
+gamePeriod: 2
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 21
+totalTime: {miliseconds: 69, seconds: 0, minutes: 0, hours: 0}
+22: {game: {name: "TrackMania Sunrise",…}, gameStatus: "complete", gamePeriod: 3, step: 22,…}
+game: {name: "TrackMania Sunrise",…}
+description: "The high octane, free wheeling insanity that is Trackmania returns to PC CDROM. Trackmania Sunrise takes everything that made the original an instant online classic ? amazing speed, ultra competitive multiplayer races and easily accessible tools to create and distribute outrageous tracks ? and still manages to add more and more. New sports cars that burn up the highways at a breathtaking 400kph as they tear around gorgeous new environments including the beauty of the Pacific Coast. The most insane stunt blocks ever, send perilous track building to a whole new level with sweeping bends, winding tunnels and ramps designed to send you soaring. Two new play modes ? Platform and Crazy ? mean that even the most experienced of trackmaniacs will face a totally fresh racing experience. A new day has dawned? are you up for the challenge? [Digital Jesters]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/1/446faacee0edbf054c5a702e6b2b7119-98.jpg"
+metacore: 82
+name: "TrackMania Sunrise"
+release: "May 6, 2005"
+releaseYear: 2005
+top: 793
+userscore: 7.7
+gamePeriod: 3
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 22
+totalTime: {miliseconds: 45, seconds: 26, minutes: 52, hours: 0}
+23: {game: {name: "Speedball 2 - Tournament",…}, gameStatus: "reroll", gamePeriod: 4, step: 23,…}
+game: {name: "Speedball 2 - Tournament",…}
+description: "In 2326, rival gangs form an ultra-violent streetsports league Speedball to settle their deadly disputes. Two teams face each other in bloody battles for a steel ball: Nine on nine – in an all-out rush on the opponents’ goal. Almost any malicious move is permitted. The winner of the matches secures supremacy over the city. The highly anticipated PC revival to the legendary Amiga classic transforms the futuristic game setting with state-of-the-art technology into a high-speed online sports spectacle. Offering international leagues, a worldwide ranking system and an intuitive matchmaking function, Speedball 2 - Tournament pulls all registers of modern multiplayer gaming action. Fully customisable male, female and cyborg characters, dynamic sports battles, and a unique online community platform with online player and clan profiles will thrill sports simulation enthusiasts, action fans, and e-sports experts likewise. [Valve]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/7/dac297550284e370102477d2671c17f6-98.jpg"
+metacore: 62
+name: "Speedball 2 - Tournament"
+release: "November 27, 2007"
+releaseYear: 2007
+top: 3831
+userscore: 7.2
+gamePeriod: 4
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 23
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+24: {,…}
+game: {name: "The Lord of the Rings: The Battle for Middle-Earth II - The Rise of the Witch-King",…}
+description: "Full of new content, including an entirely new faction, a completely new single player campaign, and additional units for all six existing factions, The Lord of the Rings, The Battle for Middle-earth II, The Rise of the Witch-King, allows players to explore the evil side of Middle-earth. The all new single player campaign's innovative new units help to tell the story of the evil Witch-King’s rise to power, domination of Angmar, and invasion of the great kingdom of Arnor, home to Aragorn's ancestors. To fully experience the evil side of Middle-earth, gamers can now play as the all new Angmar faction in skirmish, multiplayer, and War of the Ring modes. Experience a whole new depth of strategy and upgraded War of the Ring and Create-A-Hero features. Create-A-Hero's entirely new Troll class boasts additional weapons and armor that will allow players to have even more freedom in customizing their game play. War of the Ring, the risk-style meta-game, offers upgraded army persistence, a new siege dynamic on the Living World Map, and unified territories that serve as major control points. [Electronic Arts]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/5/907cee981f9a315fc4ce538788da860b-98.jpg"
+metacore: 78
+name: "The Lord of the Rings: The Battle for Middle-Earth II - The Rise of the Witch-King"
+release: "November 28, 2006"
+releaseYear: 2006
+top: 1523
+userscore: 8.5
+gamePeriod: 4
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 24
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+25: {game: {name: "Combat Mission: Shock Force",…}, gameStatus: "reroll", gamePeriod: 4, step: 25,…}
+game: {name: "Combat Mission: Shock Force",…}
+description: "At it's core, Combat Mission: Shock Force is a military simulation depicting a hypothetical near-future conflict in Syria following a fundamentalist coup d’état. As in Afghanistan 2001, the radical new government's refusal to shut down major terrorist organizations and its' regional destabilizing effect, compel NATO Coalition forces into action. The initial release of Combat Mission: Shock Force focuses on the actions of the US Stryker Brigade Combat Teams (SBCT) and Heavy Brigade Combat Teams (HBCT) as they fight against Syrian Army Infantry, Mechanized and Armored units. Combat Mission: Shock Force also features Unconventional Threat forces such as terrorists, spies, suicide bombers, IED's and other deadly tools employed in the asymmetric warfare of the modern day. Along with the standard Red vs. Blue engagements typified in most wargames, Combat Mission: Shock Force will also allow players to fight Red vs. Red (Syria vs. Syria) and Blue vs. Blue (NATO vs. NATO) battles as well. [Battlefront.com]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/7/611f07c91ccaeed951a0b766c75b2776-98.jpg"
+metacore: 62
+name: "Combat Mission: Shock Force"
+release: "August 22, 2007"
+releaseYear: 2007
+top: 3781
+userscore: 3.2
+gamePeriod: 4
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 25
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+26: {game: {name: "Hellgate: London",…}, gameStatus: "reroll", gamePeriod: 4, step: 26,…}
+game: {name: "Hellgate: London",…}
+description: "Set twenty-five years in the future, Hellgate: London introduces a world devastated by a demon invasion and a desolate city scorched by hellfire where mankind has gone underground to survive. Among them are the Templar, an archaic and secret society that foresaw this demonic apocalypse centuries ago. Followers of arcane rites, the Templar combine futuristic technology with ancient artifacts to forge powerful weapons and armor. The mystic sanctuary of the Underground system provides players safe conduct throughout the sprawling metropolis of London as they seek to preserve the bloodline of man and gain a foothold against the minions of darkness. Hellgate: London combines the depth of role-playing games and action of first-person titles, while offering infinite playability with randomly created levels, items, and events. The player creates a heroic character, completes quests, and battles through innumerable hordes of demons to advance through experience levels and branching skill paths. A robust, flexible skill and spell system, highly customizable appearances, and a massive variety of randomly generated equipment allow players to create their own unique hero. [Namco]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/4/50e9244cb289380944f4eedef29c149d-98.jpg"
+metacore: 70
+name: "Hellgate: London"
+release: "October 31, 2007"
+releaseYear: 2007
+top: 2820
+userscore: 6.3
+gamePeriod: 4
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 26
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+27: {game: {name: "Evidence: The Last Ritual",…}, gameStatus: "reroll", gamePeriod: 4, step: 27,…}
+game: {name: "Evidence: The Last Ritual",…}
+description: "The notorious serial killer "The Phoenix" is back and the authorities need your help to catch him once and for all. Using an innovative blend of Windows gameplay and the Internet, the player explores key cities in Europe and North America. Players receive live emails from various contacts around the world and can partner up with other players to crack the case. From the creators of "MISSING: Since January.""
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/1/cfcb7218326f216876598369e45cd8b5-98.jpg"
+metacore: 74
+name: "Evidence: The Last Ritual"
+release: "October 16, 2006"
+releaseYear: 2006
+top: 2169
+userscore: 7.2
+gamePeriod: 4
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 27
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+28: {game: {name: "Rise of the Argonauts",…}, gameStatus: "complete", gamePeriod: 4, step: 28,…}
+game: {name: "Rise of the Argonauts",…}
+description: "Rise of the Argonauts immerses gamers in a gladiatorial adventure, set in wondrously imagined vision of ancient Greece. With deep exploration and epic quests, players live a life of brutal combat as they lead a team of iconic warriors - including Jason, Hercules and Atalanta - through a world ruled by mythological gods. [Codemasters]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/8/96ca47f2db8460c239fd04779663f807-98.jpg"
+metacore: 59
+name: "Rise of the Argonauts"
+release: "December 16, 2008"
+releaseYear: 2008
+top: 4051
+userscore: 7.4
+gamePeriod: 4
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 28
+totalTime: {miliseconds: 65, seconds: 11, minutes: 30, hours: 6}
+29: {game: {name: "Front Mission Evolved",…}, gameStatus: "complete", gamePeriod: 5, step: 29,…}
+game: {name: "Front Mission Evolved",…}
+description: "The year is 2171 A.D. Humanity has reached for the stars once more. Keen to seize a controlling stake in this as yet unconquered region, the global superpowers have raced to build orbital elevators, swiftly turning the emptiness of space into a tangle of surveillance satellite networks and military way stations. Back on the surface, while nations no longer engage in all-out war, border skirmishes have become the more frequent. On these ever-shifting front lines, armored humanoid battle vehicles - code named "wanzers" (from "wanderpanzer") - have proven to ber the unrivaled kings. History has taught us that wherever humanity goes, war is sure to follow...and in this technological age, there is nowhere man cannot go.  From the creative minds of Square Enix and Double Helix Games, FRONT MISSION EVOLVED brings the classic FRONT MISSION franchise into an action-packed third-person shooter that gives players full control of a massive humanoid war machine-the wanzer. Players battle through intense combat situations as they explore an immersive world in both the single player campaign and online multiplayer. [Square Enix]"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/8/dfa1ee19ecb9d35e32aad49885e2cfa6-98.jpg"
+metacore: 63
+name: "Front Mission Evolved"
+release: "September 28, 2010"
+releaseYear: 2010
+top: 3730
+userscore: 5.1
+gamePeriod: 5
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 29
+totalTime: {miliseconds: 11, seconds: 0, minutes: 22, hours: 2}
+30: {game: {name: "A Game of Dwarves",…}, gameStatus: "reroll", gamePeriod: 6, step: 30,…}
+game: {name: "A Game of Dwarves",…}
+description: "The gameplay consists of ordering the inhabitants of a dwarven settlement to dig, build and conduct research in order to strengthen the clan, whilst defending themselves from the terrible beasts from the depths into which they delve. The game generates a unique world each time a new level starts, making sure that the player needs to dynamically adapt their strategies and tactics during a session. As the player advances, the dwarves will level up and gain new skills, progressing from weak dwarflings to near immortal warriors or master craftsmen. There are also rare resources to be found deeper in the earth that grant access to better buildings and equipment. However, the deeper you dig the more dangerous foes you might unleash…"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/2/3a54d0087a970eb5e3f6624178c7b365-98.jpg"
+metacore: 60
+name: "A Game of Dwarves"
+release: "October 23, 2012"
+releaseYear: 2012
+top: 3965
+userscore: 6.5
+gamePeriod: 6
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 30
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+31: {game: {name: "Renegade Ops",…}, gameStatus: "complete", gamePeriod: 6, step: 31,…}
+game: {name: "Renegade Ops",…}
+description: "Renegade Ops puts players in a mobile commando unit sent behind enemy lines to defeat Inferno, a madman intent on global domination. Defeat enemies across a range of stunning environments using a wide variety of vehicles, from dispersing electromagnetic shock waves to the deployment of a huge Gatling gun armed to the teeth. Players have the choice to fight alone in single player mode, team up offline with two-player split screen or join the dynamic 4-player online co-op experience. Blast your way through enemy lines by working together, or compete for achievements as you and your friends aim to top the online leader boards."
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/3/f6388fdaa7ead2e069b62d8af21c21a5-98.jpg"
+metacore: 76
+name: "Renegade Ops"
+release: "October 26, 2011"
+releaseYear: 2011
+top: 1793
+userscore: 7.4
+gamePeriod: 6
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 31
+totalTime: {miliseconds: 89, seconds: 20, minutes: 44, hours: 2}
+32: {game: {name: "Wasteland 2",…}, gameStatus: "reroll", gamePeriod: 7, step: 32,…}
+game: {name: "Wasteland 2",…}
+description: "Wasteland 2 is the direct sequel to the first ever post-apocalyptic computer RPG. The original Wasteland was the inspiration for the FALLOUT series of games, and the first RPG to allow players to split parties for tactical considerations, to face players with moral choices, and to make them deal with the consequences of their actions. It was the first to provide far more than the one-key-for-one-lock style of puzzle solving. It was groundbreaking, which is why IGN named it one of the top 25 PC games of all time, Computer Gaming World named it the Adventure Game of the year in 1988, and it was short-listed for inclusion in the Smithsonian Institutions current Art of the Computer Game exhibition.↵↵Wasteland was set in a dangerous, post-apocalyptic world in the American Southwest. Over the course of adventures rangers would receive promotions, acquire new skills and equipment, then face new challenges with outcomes that changed depending on the strategy used to defeat them. The game featured a strong storyline which required painful decisions by players; and a storyline that allowed for maximum re-playability. Wasteland 2, with your participation and insights, will recapture all that and provide more.  It'll finally be the game worthy to be a Wasteland sequel, as challenging and rewarding as the original, with all added capacity and dazzle of games today."
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/2/44c7a66e48dfd77bd30522bbc50077ec-98.jpg"
+metacore: 81
+name: "Wasteland 2"
+release: "September 18, 2014"
+releaseYear: 2014
+top: 1002
+userscore: 7.2
+gamePeriod: 7
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 32
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+33: {game: {name: "DmC: Devil May Cry",…}, gameStatus: "complete", gamePeriod: 7, step: 33,…}
+game: {name: "DmC: Devil May Cry",…}
+description: "DmC is the next installment in the Devil May Cry series, set in the present day, with new weapons and a new setting for Dante. Chain together combo after combo with panache and dispatch demonic spawn back to hell."
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/3/4868c620614d8d16737063b2acbe3341-98.jpg"
+metacore: 85
+name: "DmC: Devil May Cry"
+release: "January 24, 2013"
+releaseYear: 2013
+top: 451
+userscore: 7
+gamePeriod: 7
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 33
+totalTime: {miliseconds: 2, seconds: 5, minutes: 37, hours: 4}
+34: {,…}
+game: {name: "The Walking Dead: The Telltale Series - A New Frontier Episode 1: Ties That Bind Part One",…}
+description: "When family is all you have left…how far will you go to protect it? After society was ripped apart by undead hands, pockets of civilization emerge from the chaos. But at what cost? Can the living be trusted on this new frontier? As Javier, a young man determined to find the family taken from him, you meet a young girl who has experienced her own unimaginable loss. Her name is Clementine, and your fates are bound together in a story where every choice you make could be your last."
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/8/7f3c3ff8151b0f280a7c08345d52141c-98.jpg"
+metacore: 81
+name: "The Walking Dead: The Telltale Series - A New Frontier Episode 1: Ties That Bind Part One"
+release: "December 20, 2016"
+releaseYear: 2016
+top: 960
+userscore: 7.1
+gamePeriod: 8
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 34
+totalTime: {miliseconds: 74, seconds: 12, minutes: 15, hours: 8}
+35: {game: {name: "Narcos: Rise of the Cartels",…}, gameStatus: "reroll", gamePeriod: 9, step: 35,…}
+game: {name: "Narcos: Rise of the Cartels",…}
+description: "Welcome to Colombia, 1980's -- the fires of El Patron's empire have been lit, its influence spanning borders, and expansion unabated. Influence and corruption is rife; cops, guards, politicians and those in between are falling into the pocket of the Medellín Cartel, and after years of production, America is finally taking notice.↵↵Narcos: Rise of the Cartels tells the story of the hit Netflix TV series, of the rise and fall of El Patron. Choose your side and ally with the DEA or conversely side with the Narcos. Explore recognisable locations from the show and take a role in pivotal world-altering events and battles that will define and shift the war on drugs.↵↵Form your team from a variety of class-specific roles, join leading characters, upgrade your skills and take part in brutal turn-based combat, where your actions will have consequence. Plata o Plomo?"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/9/0ba97e63010f3e6d93c3c5346568de00-98.jpg"
+metacore: 45
+name: "Narcos: Rise of the Cartels"
+release: "November 19, 2019"
+releaseYear: 2019
+top: 4532
+userscore: 2.7
+gamePeriod: 9
+gameStatus: "reroll"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 35
+totalTime: {miliseconds: 1, seconds: 0, minutes: 0, hours: 0}
+36: {game: {name: "The Pedestrian",…}, gameStatus: "complete", gamePeriod: 9, step: 36,…}
+game: {name: "The Pedestrian",…}
+description: "I can see the signs in my sleep now, always guiding me closer. Will this really work? Have we almost achieved the impossible?"
+duration: 0
+imagesrc: "https://static.metacritic.com/images/products/games/1/df5d375d16f8f4e6fc0526dc904aa7eb-98.jpg"
+metacore: 81
+name: "The Pedestrian"
+release: "January 29, 2020"
+releaseYear: 2020
+top: 934
+userscore: 7.6
+gamePeriod: 9
+gameStatus: "complete"
+players: [{name: "Стас", img: "img/avatars/stas.png",…}, {name: "Коля", img: "img/avatars/sumar.jpg",…},…]
+step: 36
+totalTime: {miliseconds: 47, seconds: 24, minutes: 7, hours: 2}

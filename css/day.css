@@ -1,0 +1,184 @@
+/* Дневная тема. */
+/* Стиль скроллбара*/
+::-webkit-scrollbar-button {
+width:5px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color: #EFEFEF;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background-color:#19191A;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:#000;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 7px;
+}
+
+/* Цвет всего текста и фона */
+* {
+	color: #000;
+	text-shadow: #fff 0 0 2px;
+  transition: all 0.2s ease-in;
+} 
+body {
+  background-color: #fff; 
+ transition: all 0.2s ease-in;
+}
+/* Цвет фона модального окна */
+#modalFlex,#modalFlex div, #modalFlex p, #modalFlex h3, #modalFlex span, #modalFlex img  {
+  color: #000;
+
+}
+
+#modalInfo {
+	background-color: #EFEFEF;
+}
+
+/* Цвет кнопок HLTB и Steam */
+#hltbButton, #steamSearchButton {
+  background: #000;
+  color: #fff;
+  transition: all 0.15s ease-out;
+}
+
+
+#hltbButton:hover, #steamSearchButton:hover {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  transition: all 0.15s ease-out;
+}
+/* Меню с настройками и сменой игроков */
+#menu {
+  background-color:  #EFEFEF;
+  -webkit-box-shadow:  0px 2px 2px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow:  0px 2px 2px 2px rgba(34, 60, 80, 0.2);
+  box-shadow:  0px 2px 2px 2px rgba(34, 60, 80, 0.2); 
+}
+#menu div{
+  background-color: #EFEFEF;
+}
+
+/* Кнопки менюшки */
+#clearStorageButton,
+#settingsOpenButton,
+#soundButton, 
+#nightModeButton {
+	background-color: #fff;
+}
+
+
+#settingsOpenButton {
+  background: url(../img/settings.png);
+  background-size: cover;
+}
+
+#clearStorageButton {
+  background: url(../img/trash.svg);
+  background-size: cover;
+}
+
+#switchPlayer {
+  background: url(../img/ludens.svg);
+  background-size: cover;
+}
+
+#soundButton {
+  background-image: url(../img/dayTheme/sound.png);
+  background-size: cover;
+}
+#nightModeButton {
+  background-image: url(../img/dayTheme/moon.png);
+  background-size: cover;
+}
+.offMusic {
+  position: relative;
+  overflow: hidden;
+  background-image: url(../img/dayTheme/sound.png), url(../img/dayTheme/off.png)!important;
+  background-size: cover;
+}
+
+
+#clearStorageButton:hover, 
+#settingsOpenButton:hover,
+#soundButton:hover, 
+#nightModeButton:hover {
+  -webkit-box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+  box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+}
+
+/* Боковое меню возможных игр */
+aside {
+	background: #EFEFEF;
+	-webkit-box-shadow: 0px 2px 2px 2px rgba(34, 60, 80, 0.2);
+ 	-moz-box-shadow: 0px 2px 2px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 2px 2px 2px rgba(34, 60, 80, 0.2); 
+}
+aside div{
+  background: #EFEFEF;
+}
+aside h3 { 
+  background: #EFEFEF;
+	-webkit-box-shadow: 0px 1px 1px 1px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 1px 1px 1px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 1px 1px 1px rgba(34, 60, 80, 0.2); 
+}
+aside div p {
+  background: #EFEFEF;
+	-webkit-box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 1) inset;
+	-moz-box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 1) inset;
+	box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 1) inset;
+}
+
+.meta, .user {
+	color: #fff;
+}
+
+.completeColor {
+  background-color: #80E56D;
+}
+.dropColor {
+  background-color: #FF3A68;
+}
+.rerollColor {
+  background-color: #006DD5;
+}
+
+#finishButton, #startNewGame {
+  border: none;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #FFA6D5, #0998AB);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+#completeGame {
+  background: linear-gradient(-45deg, #80E56D, #E7FF7E, #23E7D5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+#dropGame {
+  background: linear-gradient(-45deg, #FF7920, #FF3A68, #D13574, #F29F64);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+#rerollGame {
+  background: linear-gradient(-45deg, #00E5FF, #6B77FF, #006DD5, #5451F3);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id='head'>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" id="dayTheme" href="css/day.css">
+	<title>ReRoll</title>
+</head>
+<body id="body">
+  <div id='preloader'>
+    Loading...
+  </div>
+  <!-- Меню настроек слева -->
+  <menu id="menu">
+    <div class="switchPlayerWrapper">
+      <input type="button" name="switchPlayer" value="  " id="switchPlayer" class="controlButton"  onclick="switchPlayer()">
+      <div id="switchPlayerMenu" class="modal" style="display: none;"></div>
+    </div> 
+    <div class="settingsWrapper">
+      <button onclick='settingsOpen()' id="settingsOpenButton" class="controlButton"></button>
+      <div id ="settingsWindow"></div>
+    </div>
+    <button onclick='clearStorage()' id="clearStorageButton" class="controlButton"></button>
+    <button onclick='soundOff()' id="soundButton" class="controlButton"></button>
+    <button onclick='UINightModeSwitch()' id="nightModeButton" class="controlButton"></button>
+  </menu>
+  <aside>
+   <h3>May be rolled:</h3>
+   <div id="asideMenu"></div>
+  </aside>
+
+  <!-- Шапка с названием игры и пр. -->
+  <header>
+  	<h1 id="gameNameLabel"> </h1>
+  	<h2 id="gameYearLabel"> </h2>
+    <content id="headerButtons" class="smoothClosing">
+        <a href="https://howlongtobeat.com/#search" id="HLTBLink" target="_blank">
+          <button id="hltbButton">HLTB</button>
+        </a>
+        <a href="https://store.steampowered.com/search/?sort_by=_ASC&term=" id="steamLink"  target="_blank">
+          <button id="steamSearchButton">Steam</button>
+        </a>
+    </content>
+  </header>
+
+   <!-- Метакритик бал на заднем фоне -->
+  <div id="headerScore" class="smoothClosing">
+    <div class="headerMetaScore">
+      <img src="img/Metascore.png" alt="Metacritic score">
+      <p id="metaScore"></p>
+    </div>
+    <div class="headerUserScore">
+      <img src="img/userscore.png" alt="User score">
+      <p id="userScore"></p>
+    </div>
+  </div>
+
+  <!-- Модальное окно карточки одной игры -->
+  <div id ="modalInfo" class="smoothClosing">
+    <span class="modalExit" onclick="UISmoothClose('modalInfo')"></span>
+    <div id="modalFlex">
+      <div id="modalImageWrapper">
+        <img id="modalGameImage" src="" alt="placeholder+image">
+      </div>
+      <div id="modalFlex2">
+        <div id =modalGameHeader></div>
+        <div id="modalFlex3">
+          <div id= "modalGameInfo"></div>
+          <div id= "modalGameDesc"></div>
+      </div>
+     </div>
+    </div>
+    <div id="modalFooter" class="completeColor">
+      Complete
+    </div>
+  </div>
+
+  <!-- КОЛЕСО -->
+  <main>
+    <map name="whellMap"></map>
+  	<canvas id="whell"></canvas>
+  	<button class="rollButton" onclick="gameNum = startRoll()" id="rollWheel">ROLL</button>
+  </main>
+
+  <!-- Таймер и управляющие кнопки -->
+  <content>
+    <div class="placeHolder1">
+    <p id="stopwatch">00:00:00</p>
+    <div id="startNewGameButtons">
+    	<input type="button" name="startNewGame" value="Start the game" id="startNewGame" class="controlButton smoothClosing" onclick="startNewGameFn()" hidden="true">
+    	<input type="button" name="completeGame" value="Complete" id="completeGame" class="controlButton" onclick="completeGameFn()" hidden="true">
+    	
+      <div id="dropReroll">
+         		<input type="button" name="dropGame" value="Drop" id="dropGame" class="controlButton mini" onclick="dropGameFn()" hidden="true">
+        		<input type="button" name="rerollGame" value="Reroll" id="rerollGame" class="controlButton mini" onclick="rerolGameFn()" hidden="true">
+      </div>
+    </div>
+
+    <div id="controlButtons">
+        <div>
+        	<input type="button" name="startGame" value="Start" id="startGame" class="controlButton" onclick="startTimerButton()" hidden="true">
+        	<input type="button" name="stopGame" value="Finish game" id="finishButton" class="controlButton"  onclick="finishGameButton()" hidden="true">
+     	</div>
+     </div>
+    </div>
+  </content>
+
+  <!-- Прогресс бар -->
+  <div id="periodBar">
+  	<svg width="100%" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg" id="periodBarSvg">
+  		<rect x="1%" y="50" rx="25" ry="25" width="98%" height="100" stroke="black" fill="rgba(255,255,255,0.1)" stroke-width="1"/>
+      <defs>
+      	<clipPath id="mask">
+         		<rect x="1%" y="50" rx="25" ry="25" width="98%" height="100" stroke="black" fill="transparent" stroke-width="1"/>
+      	</clipPath>
+    	</defs>
+  	</svg>
+  </div>
+
+    <!-- Скрипты -->
+  <script type="text/javascript" src="js/database/playersDB.js"></script>
+  <script type="text/javascript" src="js/database/gamesDB.js"></script>
+  <script type="text/javascript" src="js/main/rollConfig.js"></script>
+  <script type="text/javascript" src="js/main/global.js"></script>
+  <script type="text/javascript" src="js/main/gameRolling.js"></script>
+  <script type="text/javascript" src="js/main/timer.js"></script>
+  <script type="text/javascript" src="js/main/wheel.js"></script>
+  <script type="text/javascript" src="js/main/ui.js"></script>
+  <script type="text/javascript" src="js/main/localStorage.js"></script>
+  <script type="text/javascript" src="js/main/music.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>

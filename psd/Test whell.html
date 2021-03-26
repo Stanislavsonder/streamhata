@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<button id="button">rotate</button>
+	<canvas id ="canvas" width="1000" height="1000">
+	</canvas>
+	<h1 id = "sector"></h1>
+</body>
+
+
+<script type="text/javascript">
+let button = document.getElementById('button');
+let sector = document.getElementById('sector');
+// void ctx.arc(x, y, radius, startAngle, endAngle, часовая\против);
+
+let canvas = document.getElementById('canvas');	
+let size = canvas.width;
+let whellRadius = size/2;
+let sections = 12;
+let sectoinAngle = 360/sections;
+let sectionRad = sectoinAngle*Math.PI/180;
+let ctx = canvas.getContext('2d');
+let winnerAngle = 240;
+
+
+let colors = ['#E32322','#EA621F','#F18E1C','#FDC60B','#F4E500','#8CBB26','#008E5B','#0696BB','#2A71B0','#444E99','#6D398B','#C4037D'];
+let str = '';
+for (let i = 1; i <= sections; i++){
+	str+=sectoinAngle*i+ ' ';
+	ctx.beginPath();
+	ctx.moveTo(whellRadius, whellRadius);
+	ctx.arc(whellRadius, whellRadius,whellRadius, sectionRad*i, sectionRad*(i+1), false);
+	ctx.fillStyle = colors[i-1];
+	ctx.fill();
+	ctx.closePath();
+}
+button.onclick = () => {
+	roll()
+}
+
+
+let duration = 4000;
+function roll() {
+	rollingAngle = 241//Math.random() * (1000 - 500) + 500;
+	console.log ('Sectors: ',str);
+	console.log ('Rolling angle: ',rollingAngle);
+	console.log ('Winner angle:',(startAngle+rollingAngle)%360);
+	winner = Math.trunc(((startAngle+rollingAngle)%360)/sectoinAngle);
+	console.log(winner);
+	let timer = setInterval(rotate,5);
+	setTimeout(()=>{
+		clearTimeout(timer); 
+		a =0;
+		startAngle = startAngle+rollingAngle>=360?startAngle+rollingAngle-360:startAngle+rollingAngle;
+		sector.innerHTML = '123';
+		sector.setAttribute('style','background:'+colors[winner]);
+	}, duration);
+}
+
+let winner = 0;
+let startAngle = 0;
+let rollingAngle = 0;
+let a = 0;
+let step = 5/duration;
+function rotate() {
+	canvas.setAttribute('style','transform: rotate('+(startAngle+(easeInOutExpo(a)*rollingAngle))+'deg);');
+	a+=step;
+}
+
+function easeInOutExpo(x){
+return -(Math.cos(Math.PI * x) - 1) / 2;
+}
+
+function toRad(x) {
+	return x*Math.PI/180;
+}
+function toDeg(x) {
+	return x*180/Math.PI;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<style>
+canvas {
+	transform-origin: center;
+	position: absolute;
+}
+h1 {
+	height: 100px;
+}
+</style>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</html>

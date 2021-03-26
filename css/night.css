@@ -1,0 +1,138 @@
+/* Ночная тема. */
+/* Стиль скроллбара*/
+::-webkit-scrollbar-track {
+background-color: #19191A;
+}
+::-webkit-scrollbar-thumb {
+background-color: #EFEFEF;
+}
+::-webkit-scrollbar-thumb:hover{
+background-color: #fff;
+}
+/* Цвет всего текста и фона */
+* {
+	color: #E1E3E6;
+	text-shadow: #E1E3E6 0 0 2px;
+  transition: all 0.2s ease-in;
+} 
+body {
+  background-color: #000;
+
+}
+/* Цвет фона модального окна */
+#modalFlex,#modalFlex div, #modalFlex p, #modalFlex h3, #modalFlex span, #modalFlex img  {
+	color: #E1E3E6;
+}
+#modalInfo {
+	background-color: #19191A;
+}
+
+/* Цвет кнопок HLTB и Steam */
+#hltbButton, #steamSearchButton {
+  background: #E1E3E6;
+  color: #000;
+}
+
+#hltbButton:hover, #steamSearchButton:hover {
+	background: #000;
+	color: #E1E3E6;
+	border: 2px solid #E1E3E6;
+}
+/* Меню с настройками и сменой игроков */
+#menu {
+  background-color: #19191A;
+  -webkit-box-shadow: 0px 2px 2px 2px rgba(225, 227, 230, 0.2);
+  -moz-box-shadow: 0px 2px 2px 2px rgba(225, 227, 230, 0.2);
+  box-shadow: 0px 2px 2px 2px rgba(225, 227, 230, 0.2); 
+
+}
+#menu div {
+    background-color: #19191A;
+}
+/* Кнопки менюшки */
+#clearStorageButton,
+#settingsOpenButton,
+#soundButton, 
+#nightModeButton {
+	background-color: #000;
+}
+
+
+#settingsOpenButton {
+  background: url(../img/settings.png);
+  background-size: cover;
+
+}
+
+#clearStorageButton {
+  background: url(../img/trash.svg);
+  background-size: cover;
+
+}
+
+#switchPlayer {
+  background: url(../img/ludens.svg);
+  background-size: cover;
+
+}
+
+#soundButton {
+  background-image: url(../img/nightTheme/sound.png);
+  background-size: cover;
+}
+#nightModeButton {
+  background-image: url(../img/nightTheme/sun.png);
+  background-size: cover;
+}
+
+.offMusic {
+  position: relative;
+  overflow: hidden;
+  background-image: url(../img/nightTheme/sound.png), url(../img/nightTheme/off.png)!important;
+  background-size: cover;
+}
+#clearStorageButton:hover, 
+#settingsOpenButton:hover,
+#soundButton:hover, 
+#nightModeButton:hover {
+  -webkit-box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+  box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+}
+
+/* Боковое меню возможных игр */
+aside {
+	background: #19191A;
+	color: #E1E3E6;
+	-webkit-box-shadow: 0px 2px 2px 2px rgba(225, 227, 230, 0.2); 
+  -moz-box-shadow: 0px 2px 2px 2px rgba(225, 227, 230, 0.2); 
+  box-shadow: 0px 2px 2px 2px rgba(225, 227, 230, 0.2); 
+}
+aside div{
+	background: #19191A;
+}
+aside h3 { 
+	background: #19191A;
+	-webkit-box-shadow: 0px 1px 1px 1px rgba(225, 227, 230, 0.2);
+	-moz-box-shadow: 0px 1px 1px 1px rgba(225, 227, 230, 0.2);
+	box-shadow: 0px 1px 1px 1px rgba(225, 227, 230, 0.2);
+}
+aside div p {
+	background: #19191A;
+	-webkit-box-shadow: 0px 1px 1px -1px rgba(225, 227, 230, 0.2) inset;
+	-moz-box-shadow: 0px 1px 1px -1px rgba(225, 227, 230, 0.2) inset;
+	box-shadow: 0px 1px 1px -1px rgba(225, 227, 230, 0.2) inset;
+}
+.meta, .user {
+	color: #E1E3E6;
+}
+
+.completeColor {
+  background-color: #80E56D;
+}
+.dropColor {
+  background-color: #FF3A68;
+}
+.rerollColor {
+  background-color: #006DD5;
+}

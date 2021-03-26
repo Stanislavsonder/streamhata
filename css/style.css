@@ -1,0 +1,564 @@
+/* Шрифты */
+@font-face{
+font-family: 'FredokaOne';
+src: url('../fonts/FredokaOne-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+  z-index: -5;
+}
+
+*,p,h1,h2,h3,h4,h5,h6, #modalInfo{
+  font-family: "FredokaOne";
+}
+
+#gameNameLabel, #gameYearLabel {
+  text-align: center;
+}
+
+button, 
+button:active, 
+button:focus,
+input, 
+input:active, 
+input:focus {
+    outline: none;
+}
+
+header ul, header li{
+  display: inline;
+}
+header h1 {
+  font-size: 4em;
+  padding: 1% 10%;
+}
+
+header h2 {
+  font-family: "FredokaOne";
+  font-size: 2em;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+text {
+  font-size: 2em;
+}
+
+/*---Нормальная верстка             ----*/
+
+/*---Высота блоков                  ----*/
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  height: 24%;
+}
+main {
+  height: 45%;
+}
+content {
+  height: 16%;
+}
+#periodBar {
+  height: 14%;
+}
+
+/*---Высота блоков                  ----*/
+
+.placeHolder1{
+  height: 15%;
+}
+
+/*---Меню сайта------------*/
+
+.rollButton {
+  position: absolute;
+  z-index: 10;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: 2px solid;
+  font-size: 36px;
+  transition: all 0.5s ease-in-out;
+  background: linear-gradient(-45deg, #00E5FF, #6B77FF, #006DD5, #5451F3);
+  color: #fff; 
+  animation: gradient 15s ease infinite;
+
+}
+.rollButton:hover {
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+}
+
+.controlButton {
+  font-size: 24pt;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 25px;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  color: #fff;
+  background-color: #444;
+
+}
+.controlButton:hover {
+  transform: scale(1.05);
+  transition: all 0.1s ease-in-out;
+
+}
+
+#controlButtons, #periodBar, #startNewGameButtons{
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  align-self: center;
+}
+#stopwatch {
+  text-align: center;
+  font-size: 42pt;
+}
+
+#dropReroll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  align-self: center;
+}
+#dropReroll input {
+  font-size: 12pt;
+  margin: 1px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+#finishButton, #startNewGame {
+  border: none;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #FFA6D5, #0998AB);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+#completeGame {
+  background: linear-gradient(-45deg, #80E56D, #E7FF7E, #23E7D5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+#dropGame {
+  background: linear-gradient(-45deg, #FF7920, #FF3A68, #D13574, #F29F64);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+#rerollGame {
+  background: linear-gradient(-45deg, #00E5FF, #6B77FF, #006DD5, #5451F3);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+#periodBarSvg {
+  height: 155px;
+}
+
+.modalExit {
+  text-align: center;
+  background-color: #FF7F7FFF;
+  background-image: url(../img/close.png);
+  background-position:center;
+  background-size: 75%;
+  width: 4%;
+  height: 7.5%;
+  position: absolute;
+  left: 94%;
+  top:4.5%;
+  border-radius: 50%;
+  font-size: 2em;
+  transition: all 0.15s ease-out;
+  -webkit-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 1);
+  box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 1);
+}
+.modalExit:hover {
+  transition: all 0.15s ease-out;
+  background-color: #FF5B5BFF;
+}
+.modalExit:active {
+  -webkit-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 1) inset;
+  box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 1) inset;
+}
+/*-------------------*/
+.smoothClosing {
+  visibility: hidden!important;
+  opacity: 0!important;
+  transition: all 0.15s ease-out;
+}
+.smoothOpening {
+  visibility: visible!important;
+  opacity: 1!important;
+  transition: all 0.15s ease-out;
+}
+/*-------------------*/
+
+#modalInfo {
+  transition: all 0.15s ease-out;
+  font-weight: normal;
+  z-index: 15;
+  display: fixed;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+   font-size: 2vh;
+  left: 25%;
+  top: 25%;
+  border-radius: 5%/10%;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.modalGameTitles{
+  padding-bottom: 1em;
+  text-align: right;
+  padding-right: 0.1vh;
+}
+
+#modalFlex {
+  display: flex;
+  height: 85%;
+}
+#modalFlex2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 75%;
+}
+#modalGameHeader {
+  height: 40%;
+}
+#modalFlex3 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+#modalGameInfo {
+  width: 100%;
+}
+#modalGameDesc {
+  width: 100%; 
+  height: 100%;
+  padding-right:2%;
+}
+
+#modalGameDesc p {
+  font-family: 'Calibri';
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+
+
+#modalFooter {
+  display: flex;
+  height: 20%;
+  border-radius: 4.8%/38%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
+  /* Цвет не меняется */
+  color: #fff;
+  -webkit-box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+  -moz-box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+  box-shadow: 0px 3px 5px -5px rgba(0, 0, 0, 1) inset;
+}
+#modalImageWrapper {
+  width: 33%;
+  height: 100%;
+}
+#modalGameInfo {
+  width: 100%;
+}
+#modalImageWrapper img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 14%/14%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.gameInfoName {
+  padding: 3% 10%;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.gameInfoTotalTimeTitle {
+  text-align: center;
+}
+.gameInfoTotalTime {
+  text-align: center;
+  font-size: 3vh;
+  padding-top: 1%;
+  margin-bottom: 1%;
+}
+
+.scoreImg1,.scoreImg2 {
+  display: inline-block;
+  vertical-align: middle;
+  width: 5.8%;
+  height: 10%;
+  margin-right: 1%;
+}
+.scoreText1{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20%;
+}
+.scoreText2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.score {
+  text-align: center;
+  padding-bottom: 1%;
+  vertical-align: middle;
+}
+
+/* Игроки в модальном окне */
+.playerModalInfo {
+  display: block;
+  text-align: center;
+  font-family: 'Calibri';
+  vertical-align: middle;
+  margin-bottom: 0.5%;
+}
+
+.playerModalIco {
+  width: 5%;
+  height: 5%;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.playerModalTime {
+  padding-left: 4%; 
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+
+/* Мета и юзер скор справа и слева от колеса */
+
+#headerScore {
+  z-index: 0;
+  position: absolute;
+  top:33%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#headerScore img {
+  width: 33%
+}
+#headerScore {
+  font-size: 5vh;
+}
+.headerMetaScore,.headerUserScore {
+  text-align: center;
+}
+
+
+
+
+
+
+/* Кнопка HLTB и Steam */
+#headerButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#headerButtons a {
+  margin: 5px;
+}
+#hltbButton, #steamSearchButton {
+  margin: 5px;
+  height: 75%;
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+  border-radius: 10%/20%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#hltbButton:hover, #steamSearchButton:hover {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/*---Меню сайта------------*/
+.switchPlayerWrapper, .settingsWrapper{
+  display: flex;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin: 10px;
+  border-radius: 20px;
+  z-index: 18;
+  padding: 10px 5px;
+
+}
+#clearStorageButton,
+#settingsOpenButton,
+#soundButton, 
+#nightModeButton {
+  width:  60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.playerIco {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 4px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.playerIco:hover {
+  border: 2px solid #D32B2BFF;
+  transition: all 0.1s ease-in-out;
+}
+.currentPlayer {
+  border: 2px solid red;
+
+}
+
+#whell{
+  position: absolute;
+  z-index: 1;
+}
+map {
+  position: absolute;
+  z-index: 2;
+}
+
+
+
+/* Боковое меню игр */
+aside {
+  display: block;
+  vertical-align: middle;
+  padding: 1% 0 1% 1%;
+  position: absolute;
+  border-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  z-index: 10;
+  width: 25%;
+  height: 35%;
+  left: 75%;
+  top:51%;
+  box-sizing: border-box;
+}
+#asideMenu {
+  height: 84%;
+  width: 100%;
+  overflow: auto;
+}
+aside h3 {
+  font-size: 2em;
+  padding-bottom:5%;
+  padding: 2% 2% 2% 4%;
+  margin-bottom: 3%;
+  border-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+aside div p {
+  display: block;
+  vertical-align: middle;
+  border-radius: 5%/60%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0 0 0.2% 0;
+  margin-bottom: 20px;
+}
+.meta, .user {
+  display: block;
+  display: inline-block;
+  background-image: url(../img/metascoreBG.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 1px;
+  text-align: center;
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  line-height: 180%;
+}
+.user {
+  background-image: url(../img/userscoreBG.png);
+  margin-right: 10px;
+}
+
+#preloader {
+  font-family: 'FredokaOne';
+  position: fixed;
+  width:  100%;
+  height: 100%;
+  z-index: 100;
+  background-color: black;
+  transition: all 0s ease-in;
+  text-align: center;
+  color:white;
+  font-size: 45pt;
+  padding-top: 25%;
+}
+.gameInfoStartFinish {
+  text-align: center;
+  padding-bottom: 20px;
+}
